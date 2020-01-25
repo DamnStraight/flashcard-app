@@ -1,0 +1,26 @@
+.card-focus {
+    z-index: 99;
+}
+
+.card-wrapper {
+    position: absolute;
+}
+.card-previous {
+    top: -100px;
+    opacity: 0.25;
+    transform: scale(0.95);
+}
+
+.card-next {
+    top: 55px;
+    opacity: 0.25;
+    transform: scale(0.95);
+    z-index: 1;
+}
+
+.card-next-next {
+    top: 80px;
+    opacity: 0.10;
+    transform: scale(0.90);
+    z-index: 1;
+}

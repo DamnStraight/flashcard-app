@@ -1,0 +1,30 @@
+.solution-textarea {
+    background-color: WHITE;
+    border-radius: 4px;
+    padding: 5px;
+    border-bottom: 3px solid #e0e0e0;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    // This fixes a resizing on click bug
+    min-height: 60px;
+}
+
+.language-picker {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.code-editor-wrapper {
+    padding-top: 10px;
+    position: relative;
+}
+
+.code-editor {
+    background: #2d2a2e;
+    color: white;
+    border-radius: 4px;
+    border-bottom: 3px solid black;
+}
